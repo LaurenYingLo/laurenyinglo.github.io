@@ -69,11 +69,9 @@ nav a:hover{
 }
 
 .hero{
-  display:grid;
-  grid-template-columns:1.18fr 1.06fr .72fr;
-  gap:30px;
-  align-items:center;
-  padding:66px 0 34px;
+    display:grid;
+    grid-template-columns:1.35fr 0.95fr 0.85fr;
+    gap:32px;
 }
 
 .eyebrow{
