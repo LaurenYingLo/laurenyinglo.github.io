@@ -192,18 +192,23 @@ h1{
 .now-item{
     display:flex;
     align-items:flex-start;
-    gap:18px;
-    padding:20px 0;
+    gap:16px;
+    padding:22px 0;
     border-bottom:1px solid #ececec;
 }
 
 .now-item i{
+    width:26px;
     flex-shrink:0;
-    width:28px;
+
     font-size:22px;
     color:#7C6CF2;
-    margin-top:2px;
-    text-align:center;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    margin-top:3px;
 }
 
 .now-item strong{
