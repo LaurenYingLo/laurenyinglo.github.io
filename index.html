@@ -15,10 +15,67 @@ body{
     color:#222;
 }
 
-header{
-    padding:70px 10%;
+.navbar{
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+
+padding:28px 10%;
+
+background:white;
+
+position:sticky;
+
+top:0;
+
 }
 
+.logo{
+
+font-size:30px;
+
+font-weight:700;
+
+}
+
+.dot{
+
+display:inline-block;
+
+width:10px;
+
+height:10px;
+
+border-radius:50%;
+
+background:#7C6CF2;
+
+margin-left:6px;
+
+}
+
+nav a{
+
+text-decoration:none;
+
+color:#333;
+
+margin-left:30px;
+
+font-weight:600;
+
+transition:.3s;
+
+}
+
+nav a:hover{
+
+color:#7C6CF2;
+
+}
 h1{
     font-size:52px;
     margin-bottom:8px;
@@ -57,12 +114,11 @@ section{
 
 <body>
 
-<header>
+<header class="navbar">
 
-<h1>Lauren Lo</h1>
-
-<div class="subtitle">
-Mathematics · Artificial Intelligence · Statistics
+<div class="logo">
+Lauren Lo
+<span class="dot"></span>
 </div>
 
 <nav>
@@ -76,6 +132,8 @@ Mathematics · Artificial Intelligence · Statistics
 <a href="#">Blog</a>
 
 <a href="#">CV</a>
+
+<a href="#">Contact</a>
 
 </nav>
 
