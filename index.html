@@ -1,192 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Lauren Lo</title>
-  <link rel="stylesheet" href="style.css" />
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Lauren Lo</title>
+
+<link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
-  <header class="topbar">
-    <div class="logo">Lauren Lo <span></span></div>
 
-    <nav>
-      <a href="#about">About</a>
-      <a href="#projects">Projects</a>
-      <a href="#research">Research</a>
-      <a href="#blog">Blog</a>
-      <a href="#cv">CV</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
+<header class="navbar">
 
-  <main class="container">
+<div class="logo">
+Lauren Lo
+<span class="dot"></span>
+</div>
 
-    <section class="hero">
-      <div class="hero-text">
-        <p class="eyebrow">Hi, I'm</p>
-        <h1>Lauren Lo</h1>
-        <p class="subtitle">Mathematics · Artificial Intelligence · Statistics</p>
-        <p class="intro">
-          I build mathematical models and AI tools to solve problems in science and medicine.
-        </p>
+<nav>
 
-        <div class="buttons">
-          <a class="btn-primary" href="#projects">View Projects →</a>
-          <a class="btn-secondary" href="#about">About Me</a>
-        </div>
+<a href="#about">About</a>
 
-        <div class="links">
-          <a href="#">GitHub</a>
-          <a href="#">LinkedIn</a>
-          <a href="#">Email</a>
-          <a href="#">CV</a>
-        </div>
-      </div>
+<a href="#projects">Projects</a>
 
-      <div class="hero-image">
-        <img src="images/profile.jpg" alt="Profile image">
-      </div>
+<a href="#research">Research</a>
 
-      <aside class="now-card">
-        <h2><span></span> Now</h2>
+<a href="#blog">Blog</a>
 
-        <div class="now-item">
-          <strong>B.Sc. Mathematics</strong>
-          <p>Freie Universität Berlin</p>
-        </div>
+<a href="#cv">CV</a>
 
-        <div class="now-item">
-          <strong>Research Intern</strong>
-          <p>Max Planck Institute</p>
-        </div>
+<a href="#contact">Contact</a>
 
-        <div class="now-item">
-          <strong>Working on</strong>
-          <p>Biomedical Statistics & Mathematical Modelling</p>
-        </div>
+</nav>
 
-        <div class="now-item">
-          <strong>Learning</strong>
-          <p>Deep Learning & Video Editing</p>
-        </div>
-      </aside>
-    </section>
+</header>
 
-    <section id="projects" class="section">
-      <div class="section-header">
-        <h2><span></span> Featured Projects</h2>
-        <a href="#">View all projects →</a>
-      </div>
+<main>
 
-      <div class="project-grid">
-        <article class="project-card">
-          <div class="project-image gradient-1"></div>
-          <div class="project-content">
-            <h3>Neural Network from Scratch</h3>
-            <p>A NumPy implementation of neural networks for classification.</p>
-            <div class="tags">
-              <span>Python</span><span>NumPy</span><span>Machine Learning</span>
-            </div>
-          </div>
-        </article>
+<section class="hero">
 
-        <article class="project-card">
-          <div class="project-image gradient-2"></div>
-          <div class="project-content">
-            <h3>ODE Parameter Estimation</h3>
-            <p>Parameter inference for ODE models using optimization methods.</p>
-            <div class="tags">
-              <span>Python</span><span>Optimization</span><span>Statistics</span>
-            </div>
-          </div>
-        </article>
+<div class="hero-left">
 
-        <article class="project-card">
-          <div class="project-image gradient-3"></div>
-          <div class="project-content">
-            <h3>Wordle Solver</h3>
-            <p>A probabilistic approach to solve Wordle using simulations.</p>
-            <div class="tags">
-              <span>Python</span><span>Probability</span><span>NLP</span>
-            </div>
-          </div>
-        </article>
+<p class="hello">
+Hi, I'm
+</p>
 
-        <article class="project-card">
-          <div class="project-image gradient-4"></div>
-          <div class="project-content">
-            <h3>Biomedical Data Analysis</h3>
-            <p>Statistical analysis and visualization of medical datasets.</p>
-            <div class="tags">
-              <span>R</span><span>Python</span><span>Statistics</span>
-            </div>
-          </div>
-        </article>
-      </div>
-    </section>
+<h1>
+Lauren Lo
+</h1>
 
-    <div class="two-columns">
-      <section id="blog" class="section">
-        <div class="section-header">
-          <h2><span></span> Latest Blog Posts</h2>
-          <a href="#">View all posts →</a>
-        </div>
+<p class="subtitle">
 
-        <div class="post-list">
-          <article class="post">
-            <div class="post-thumb"></div>
-            <div>
-              <h3>What I Learned at Max Planck</h3>
-              <p>My internship experience and research notes.</p>
-            </div>
-            <time>Jun 20, 2026</time>
-          </article>
+Mathematics · Artificial Intelligence · Statistics
 
-          <article class="post">
-            <div class="post-thumb dark"></div>
-            <div>
-              <h3>Building a Neural Network from Scratch</h3>
-              <p>Step-by-step implementation with backpropagation.</p>
-            </div>
-            <time>Jun 15, 2026</time>
-          </article>
-        </div>
-      </section>
+</p>
 
-      <section id="research" class="section">
-        <div class="section-header">
-          <h2><span></span> Research</h2>
-          <a href="#">View all research →</a>
-        </div>
+<p class="intro">
 
-        <div class="research-list">
-          <article class="research-item">
-            <div class="research-icon"></div>
-            <div>
-              <h3>Oocyte Maturation Model</h3>
-              <p>Stochastic modelling of biological maturation processes.</p>
-            </div>
-            <span class="status">In Progress</span>
-          </article>
+I build mathematical models and AI tools
+for scientific discovery.
 
-          <article class="research-item">
-            <div class="research-icon light"></div>
-            <div>
-              <h3>Mathematical Data Learning</h3>
-              <p>Learning structures from mathematical data and equations.</p>
-            </div>
-            <span class="status">Seminar</span>
-          </article>
-        </div>
-      </section>
-    </div>
+</p>
 
-  </main>
+<div class="buttons">
 
-  <footer id="contact">
-    © 2026 Lauren Lo · GitHub · LinkedIn · Email
-  </footer>
-</body>
-</html>
+<a class="button-primary" href="#projects">
+
+View Projects →
+
+</a>
+
+<a class="button-secondary" href="#contact">
+
+Contact
+
+</a>
+
+</div>
+
+<div class="socials">
+
+<a href="#">GitHub</a>
+
+<a href="#">LinkedIn</a>
+
+<a href="#">Email</a>
+
+<a href="#">CV</a>
+
+</div>
+
+</div>
