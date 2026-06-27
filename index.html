@@ -1,165 +1,243 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
 <meta charset="UTF-8">
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>Lauren Lo</title>
 
-<style>
-
-body{
-    margin:0;
-    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
-    background:#fafafa;
-    color:#222;
-}
-
-.navbar{
-
-display:flex;
-
-justify-content:space-between;
-
-align-items:center;
-
-padding:28px 10%;
-
-background:white;
-
-position:sticky;
-
-top:0;
-
-}
-
-.logo{
-
-font-size:30px;
-
-font-weight:700;
-
-}
-
-.dot{
-
-display:inline-block;
-
-width:10px;
-
-height:10px;
-
-border-radius:50%;
-
-background:#7C6CF2;
-
-margin-left:6px;
-
-}
-
-nav a{
-
-text-decoration:none;
-
-color:#333;
-
-margin-left:30px;
-
-font-weight:600;
-
-transition:.3s;
-
-}
-
-nav a:hover{
-
-color:#7C6CF2;
-
-}
-h1{
-    font-size:52px;
-    margin-bottom:8px;
-}
-
-.subtitle{
-    font-size:22px;
-    color:#666;
-}
-
-nav{
-    margin-top:40px;
-}
-
-nav a{
-    text-decoration:none;
-    color:#333;
-    margin-right:28px;
-    font-weight:600;
-}
-
-section{
-    padding:0 10% 70px;
-}
-
-.card{
-    background:white;
-    border-radius:18px;
-    padding:35px;
-    box-shadow:0 8px 30px rgba(0,0,0,.08);
-}
-
-</style>
+<link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
 
-<header class="navbar">
+<header>
 
 <div class="logo">
-Lauren Lo
-<span class="dot"></span>
+
+Lauren Lo<span>.</span>
+
 </div>
 
 <nav>
 
-<a href="#">About</a>
+<a href="#about">About</a>
 
-<a href="#">Projects</a>
+<a href="#projects">Projects</a>
 
-<a href="#">Research</a>
+<a href="#research">Research</a>
 
-<a href="#">Blog</a>
+<a href="#blog">Blog</a>
 
-<a href="#">CV</a>
+<a href="#cv">CV</a>
 
-<a href="#">Contact</a>
+<a href="#contact">Contact</a>
 
 </nav>
 
 </header>
 
-<section>
 
-<div class="card">
 
-<h2>Hello 👋</h2>
+<section class="hero">
+
+<div class="hero-left">
+
+<p class="small">
+
+Hi, I'm
+
+</p>
+
+<h1>
+
+Lauren Lo
+
+</h1>
+
+<h2>
+
+Mathematics · AI · Statistics
+
+</h2>
 
 <p>
-I'm Lauren Lo, a Mathematics student at Freie Universität Berlin.
+
+Research Intern at the Max Planck Institute.
+
 </p>
 
 <p>
-Currently conducting research at the Max Planck Institute.
+
+I build mathematical models, machine learning methods,
+
+and statistical tools for scientific research.
+
 </p>
 
-<p>
-My interests include AI, Statistics, Mathematical Modelling and Biomedical Data Analysis.
-</p>
+<div class="buttons">
+
+<a class="btn" href="#projects">
+
+View Projects
+
+</a>
+
+<a class="btn-outline" href="#cv">
+
+Download CV
+
+</a>
+
+</div>
+
+</div>
+
+<div class="hero-right">
+
+<img src="images/profile.jpg">
 
 </div>
 
 </section>
+
+
+
+<section id="about">
+
+<h2>
+
+About Me
+
+</h2>
+
+<p>
+
+I'm a Mathematics student at Freie Universität Berlin.
+
+My research interests include Artificial Intelligence,
+
+Machine Learning, Mathematical Modelling,
+
+Stochastic Processes, and Biomedical Data Analysis.
+
+</p>
+
+</section>
+
+
+
+<section id="projects">
+
+<h2>
+
+Featured Projects
+
+</h2>
+
+<div class="cards">
+
+<div class="card">
+
+<h3>
+
+Neural Network from Scratch
+
+</h3>
+
+<p>
+
+NumPy implementation of a neural network.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>
+
+Wordle Solver
+
+</h3>
+
+<p>
+
+Statistical strategy for solving Wordle.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>
+
+Learning on Mathematical Data
+
+</h3>
+
+<p>
+
+Seminar about AI on mathematical structures.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<section id="research">
+
+<h2>
+
+Current Research
+
+</h2>
+
+<p>
+
+Research at the Max Planck Institute on mathematical
+
+modelling of biological processes.
+
+</p>
+
+</section>
+
+
+
+<section id="blog">
+
+<h2>
+
+Latest Blog
+
+</h2>
+
+<p>
+
+Coming soon...
+
+</p>
+
+</section>
+
+
+
+<footer>
+
+© 2026 Lauren Lo
+
+</footer>
 
 </body>
 
