@@ -43,12 +43,7 @@ a{
 .logo span,
 .section-head h2 span,
 .now h2 span{
-  display:inline-block;
-  width:9px;
-  height:9px;
-  border-radius:50%;
-  background:#8b7cf6;
-  margin-left:8px;
+  display:none;
 }
 
 nav{
@@ -273,7 +268,7 @@ h1{
 
 .project-body h3{
   font-size:18px;
-  letter-spacing:-.035em;
+  letter-spacing:-.005em;
   margin-bottom:8px;
 }
 
