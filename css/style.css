@@ -188,3 +188,18 @@ footer{
     grid-template-columns:1fr;
   }
 }
+
+
+.profile-image{
+    width:100%;
+    aspect-ratio:4/5;
+    object-fit:cover;
+    border-radius:24px;
+    display:block;
+}
+
+.hero-right{
+    display:flex;
+    flex-direction:column;
+    gap:24px;
+}
