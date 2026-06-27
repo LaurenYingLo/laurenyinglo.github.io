@@ -137,11 +137,27 @@ h1{
 }
 
 .socials{
-  display:flex;
-  gap:28px;
-  color:#475569;
-  font-size:15px;
-  font-weight:650;
+    display:flex;
+    gap:28px;
+    flex-wrap:wrap;
+}
+
+.socials a{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    color:#374151;
+    font-size:16px;
+    font-weight:600;
+    transition:.2s;
+}
+
+.socials a:hover{
+    color:#8b7cf6;
+}
+
+.socials i{
+    font-size:24px;
 }
 
 .hero-photo{
@@ -174,25 +190,33 @@ h1{
 }
 
 .now-item{
-  padding:17px 0;
-  border-bottom:1px solid #edf0f5;
+    display:grid;
+    grid-template-columns:36px 1fr;
+    gap:18px;
+    align-items:start;
+    padding:22px 0;
+    border-bottom:1px solid #e5e7eb;
 }
 
-.now-item:last-child{
-  border-bottom:none;
+.now-item i{
+    font-size:25px;
+    color:#7C6CF2;
+    line-height:1.2;
+    margin-top:2px;
 }
 
 .now-item strong{
-  display:block;
-  font-size:15px;
-  margin-bottom:2px;
+    display:block;
+    font-size:18px;
+    font-weight:800;
+    margin-bottom:4px;
 }
 
 .now-item p{
-  color:#526071;
-  font-size:14px;
+    color:#4b5563;
+    font-size:17px;
+    line-height:1.45;
 }
-
 .section{
   margin-top:48px;
 }
