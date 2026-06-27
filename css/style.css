@@ -160,6 +160,7 @@ h1{
 
 .hero-photo{
   background:white;
+  justify-self:start;
   border:1px solid #ececf2;
   border-radius:22px;
   overflow:hidden;
@@ -179,6 +180,7 @@ h1{
   border-radius:22px;
   padding:30px;
   box-shadow:0 18px 45px rgba(15,23,42,.08);
+  min-width:330px;
 }
 
 .now h2{
