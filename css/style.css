@@ -190,19 +190,20 @@ h1{
 }
 
 .now-item{
-    display:grid;
-    grid-template-columns:36px 1fr;
+    display:flex;
+    align-items:flex-start;
     gap:18px;
-    align-items:start;
-    padding:22px 0;
-    border-bottom:1px solid #e5e7eb;
+    padding:20px 0;
+    border-bottom:1px solid #ececec;
 }
 
 .now-item i{
-    font-size:25px;
+    flex-shrink:0;
+    width:28px;
+    font-size:22px;
     color:#7C6CF2;
-    line-height:1.2;
     margin-top:2px;
+    text-align:center;
 }
 
 .now-item strong{
@@ -217,6 +218,11 @@ h1{
     font-size:17px;
     line-height:1.45;
 }
+
+.now-item div{
+    flex:1;
+}
+
 .section{
   margin-top:48px;
 }
